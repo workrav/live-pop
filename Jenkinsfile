@@ -2,7 +2,7 @@ pipeline {
     agent { label 'mymachine' }
 
     triggers {
-        pollSCM('* * * * *') // This checks for changes every minute
+        pollSCM('* * * * *') // This  every minute
     }
 
     environment {
